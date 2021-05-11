@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang ="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Barbearia Germano - Contato</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banner-logo">
+        <img class="banner" src="wwwroot/img/banner.png">
+        <img class="logo-style" src="wwwroot/img/logo-branco.png" alt="Logo da Barberaria Germano representando a silhueta de um corte de cabelo, barba e óculos.">
+    </div>
+    <main class="contatopage">
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Seg à Sex</td>
+                    <td>08h às 20h</td>
+                </tr>
+                <tr>
+                    <td>Sábado</td>
+                    <td>08h às 18h</td>  
+                </tr>
+                <tr>
+                    <td>Domingo</td>
+                    <td>12h às 20h</td>
+                </tr>
+            </tbody>
+        </table>     
+        <form>
+            <label for="ncompleto">Nome Completo:</label>
+            <input class="input-padrao" type="text" id="ncompleto" required
+            placeholder="Digite seu nome">
+            
+            <label for="uemail">E-mail:</label>
+            <input class="input-padrao" type="email" id="uemail" required
+            placeholder="exemplo@exemplo.com.br">
+            
+            <label for="utelefone">Telefone:</label>
+            <input class="input-padrao" type="tel" id="utelefone"
+            placeholder="(xx) xxxxx-xxxx">
+            
+            <label for="campotexto">Mensagem: </label>
+            <textarea class="input-padrao" id="campotexto" rows="20"
+            placeholder="Digite sua mensagem"></textarea>
+            
+            <fieldset>
+                <legend>Forma de contato desejada:</legend>
+                <label for="remail"><input type="radio" name="contato" id="remail">Email</label>
+                
+                <label for="rtelefone"><input type="radio" name="contato" id="rtelefone">Telefone</label>
+                
+                <label for="rzapzap"><input type="radio" name="contato" id="rzapzap" checked>WhatsApp</label>
+            </fieldset>
+            
+            
+            <fieldset>
+                <legend>Qual horário deseja ser atendido?</legend>
+                <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                    <option value="">Madrugada</option>
+                    <option value="">Apenas em Shabat</option>
+                    <option value="">Apenas em Iftar</option>
+                    <option value="">Apenas na Hora H</option>
+                </select>
+            </fieldset>
+            
+            <label class="checkbox"><input type="checkbox" checked>Gostarias de receber nossa newsletter?</label>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+
+        </form>   
+    </main>
+</body>
+<footer>
+    <p class="copyright">&copy Todos os direitos reservados à Barbearia Germano - 2021</p>
+</footer>
+</html>

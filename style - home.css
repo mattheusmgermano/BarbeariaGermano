@@ -1,0 +1,55 @@
+
+.main
+{
+    text-align: center;
+    background-color: rgb(124, 124, 124);
+    padding: 30px;
+    font-size: 18px;
+}
+.beneficios
+{
+    text-align: center;
+    background-color: darkgray;
+    padding: 20px;
+}
+.titulo
+{
+    padding-left: 20px;
+}
+
+#missao
+{
+    font-size: 20px;
+}
+#missao strong
+{
+    color: rgb(106, 18, 189);
+    font-size: 22px;
+}
+
+
+#banner
+{
+    width: 100%;
+    height: auto;
+}
+#banner-bene
+{
+    width: 50%;
+}
+
+
+.ul
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.itens
+{
+    font-style: italic;
+    font-size: 15px;
+    padding: 5px;
+    margin: 2px;
+}
